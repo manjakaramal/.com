@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Manjakaramal</title>
+        <!-- bootstrap 5.3.2 -->
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <!-- bootstrap icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- head -->
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-3">
+                    <div class="logo"></div>
+                    <div class="brand-name">MANJAKARAMAL</div>
+                    <div class="field-name">TECHNOLOGIES</div>
+                </div>
+                <div class="col-9 d-flex justify-content-center">
+                    <span class="menu-item" onclick="showPage('home')">Home</span>
+                    <span class="menu-item" onclick="showPage('about')">About</span>
+                    <span class="menu-item" onclick="showPage('services')">Services</span>
+                    <span class="menu-item" onclick="showPage('contact')">Contact</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- home-page -->
+        <div id="home" class="page pb-5">
+            <div class="container content">
+                <div class="div d-flex justify-content-center content-head">
+                    Welcome!..
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-6 d-flex justify-content-center ">
+                        <i class="bi bi-laptop-fill content-icon-1"></i>
+                        <i class="bi bi-phone-fill content-icon-2" ></i>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="div text-center content-p pt-2">
+                            We're a cool web development crew dedicated to making 
+                            awesome stuff for businesses online. Our team is a bunch 
+                            of pros who love crafting top-notch websites, web apps, 
+                            and digital experiences that make brands stand out and get 
+                            real results.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex justify-content-center button-div">
+                <button class="btn btn-light btn-lg" onclick="showPage('about')">
+                    About Us
+                </button>
+            </div>
+        </div>
+        
+        <!-- about-page -->
+        <div id="about" class="page pb-5" style="display: none;">
+            <div class="container content">
+                <div class="div d-flex justify-content-center content-head">
+                    About Us
+                </div>
+                <div class="div text-center content-p pt-2">
+                    We are a team of experienced freelance web developers who have come together 
+                    to achieve a common goal. Our mission is to create outstanding websites that 
+                    stand out and contribute to the success of businesses and individuals online.
+                </div>
+                <div class="row boxes">
+                    <div class="col box-col">
+                        <div class="box">
+                            <i class="bi bi-eye-fill box-icon"></i>
+                            <div class="box-head">
+                                Our Vision
+                            </div>
+                            <div class="box-text pb-3">
+                                We're committed to helping ideas, brands, 
+                                and businesses thrive in the digital world. Our 
+                                innovative web solutions empower clients for success in 
+                                today's interconnected landscape.
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col box-col">
+                        <div class="box">
+                            <i class="bi bi-vector-pen box-icon"></i>
+                            <div class="box-head">
+                                Our Mission
+                            </div>
+                            <div class="box-text pb-3">
+                                Our mission is to deliver high-quality web development 
+                                services that not only meet but exceed the expectations 
+                                of our clients. We aim to create functional, visually 
+                                appealing websites that serve as powerful tools for our clients' 
+                                success.
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col box-col">
+                        <div class="box">
+                            <i class="bi bi-suit-diamond-fill box-icon"></i>
+                            <div class="box-head">
+                                Quality
+                            </div>
+                            <div class="box-text pb-3">
+                                Quality is not just a goal; it's our commitment. 
+                                We adhere to the highest standards in web development, 
+                                ensuring that every project we undertake is a testament 
+                                to precision, creativity, and functionality
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container d-flex justify-content-center button-div">
+                    <button class="btn btn-light btn-lg" onclick="showPage('services')">
+                        Our Services
+                    </button>
+                </div>   
+            </div>
+        </div>
+
+        <!-- services-page -->
+        <div id="services" class="page  pb-5" style="display: none;">
+            <div class="container content">
+                <div class="div d-flex justify-content-center content-head">
+                    Our Services
+                </div>
+                <div class="row pt-3">
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-bag-check-fill"></i>
+                                </div>
+                                <h5 class="card-title">Ecommerce</h5>
+                                <p class="card-text">
+                                    Boost your online sales with a user-friendly 
+                                    and secure ecommerce website. We specialize in creating seamless 
+                                    online shopping experiences, from intuitive product displays to 
+                                    secure checkout processes. Let us help you create a robust online 
+                                    storefront that drives conversions and customer satisfaction.
+                                </p>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-building"></i>
+                                </div>
+                                <h5 class="card-title">Businesses Website</h5>
+                                <p class="card-text">
+                                    Empower your business with a
+                                    professional website tailored to your needs. 
+                                    Our team creates dynamic and visually stunning 
+                                    websites that enhance your online presence. 
+                                    From showcasing your products to providing essential 
+                                    information, we ensure a seamless online experience for
+                                    your customers.
+                                </p>
+                            </div>
+                            
+                          </div>
+                    </div>
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-file-person-fill"></i>
+                                </div>
+                                <h5 class="card-title">Personal Website</h5>
+                                <p class="card-text">
+                                    Build your personal brand with a customized website.
+                                    Whether you're a freelancer, artist, or professional, 
+                                    we design websites that reflect your personality 
+                                    and achievements. Showcase your portfolio, share your story, 
+                                    and connect with your audience in a meaningful way.
+                                </p>
+                            </div>
+                            
+                          </div>
+                    </div>
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-gear-fill"></i>
+                                </div>
+                                <h5 class="card-title">ERP</h5>
+                                <p class="card-text">
+                                    Streamline your business operations with our Enterprise 
+                                    Resource Planning (ERP) solutions. We offer tailored ERP 
+                                    systems that integrate seamlessly with your workflows, 
+                                    providing efficiency, accuracy, and real-time insights. 
+                                    Enhance collaboration and make informed decisions for 
+                                    sustainable growth
+                                </p>
+                            </div>
+                            
+                          </div>
+                    </div>
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-palette-fill"></i>
+                                </div>
+                                <h5 class="card-title">Customized Website</h5>
+                                <p class="card-text">
+                                    Get a website that's as unique as your vision. Our team specializes 
+                                    in creating custom websites tailored to your specific needs. Whether you
+                                    have a design in mind, need special features, or want seamless integration
+                                     with other tools, we've got you covered
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 card-col">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <div class="card-icon">
+                                    <i class="bi bi-three-dots"></i>
+                                </div>
+                                <h5 class="card-title">Other</h5>
+                                <p class="card-text">
+                                    Explore endless possibilities with our 
+                                    web development services. Whether it's a unique project or a 
+                                    specific requirement, we have the expertise to bring your
+                                    ideas to life. Let us collaborate to create a customized
+                                    solution that meets your goals and exceeds expectations.
+                                </p>
+                            </div>
+                            
+                          </div>
+                    </div>
+                    
+                </div>
+                <div class="container d-flex justify-content-center button-div">
+                    <button class="btn btn-light btn-lg" onclick="showPage('contact')">
+                        Contact Us
+                    </button>
+                </div>   
+            </div>
+        </div>
+        
+        <!-- contact-page -->
+        <div id="contact" class="page pb-5" style="display: none;">
+            <div class="container content">
+                <div class="div d-flex justify-content-center content-head">
+                    Contact Us
+                </div>
+                <div class="text-center pt-2">
+                    <span class="contact-icon">
+                        <i class="bi bi-facebook"></i>
+                    </span>
+                    <span class="contact-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </span>
+                    <span class="contact-icon">
+                        <i class="bi bi-instagram"></i>
+                    </span>
+                    <!-- <span class="contact-icon">
+                        <i class="bi bi-youtube"></i>
+                    </span>
+                    <span class="contact-icon">
+                        <i class="bi bi-threads-fill"></i>
+                    </span>
+                    <span class="contact-icon">
+                        <i class="bi bi-twitter"></i>
+                    </span>
+                    <span class="contact-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </span> -->
+                </div>
+                <div class="py-3 text-center contact-mail-phone">
+                    <span>
+                        <h5>
+                            <i class="bi bi-envelope-fill"></i>
+                            : manjakaramal@gmail.com
+                        </h5>
+                        
+                    </span>
+                    <span>
+                        <h5>
+                            <i class="bi bi-telephone-fill"></i>
+                            : +91 9895291631
+                        </h5>
+                    </span>
+                </div>
+                <form action="">
+                    <div class="text-center pb-2 message-us-head">
+                        <h3>Message Us</h3>             
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 pb-2">
+                            <input type="text" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="col-md-6 pb-2">
+                            <input type="text" class="form-control" placeholder="Enter your place" required>
+                        </div>
+                        <div class="col-md-6 pb-2">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                        </div>
+                        <div class="col-md-6 pb-2">
+                            <input type="text" class="form-control" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="col-md-12 pb-2">
+                            <textarea class="form-control" placeholder="Enter your message" rows="10"></textarea>
+                        </div>
+                        <div class="col-md-12 d-flex justify-content-end message-us-button">
+                            <button class="btn btn-light message-btn">Send Message</button>
+                        </div>
+                    </div>
+                </form>  
+            </div>
+        </div>
+
+        <script src="mine.js"></script>
+        <!-- bootstrap 5.3.2 -->
+        <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
