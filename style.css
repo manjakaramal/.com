@@ -239,12 +239,18 @@ body {
     left: 50%; 
     transform: translate(-50%, -50%); 
     font-size: 3rem;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #000;
     color: #000;
     border-radius: 50%;
     padding-left: 13px; 
     padding-right: 13px;
+    top: 0;
+    border: solid;
+    border-color: white;
+    padding: 15px;
 }
+
 
 .box-text {
     font-size: 20px;
@@ -255,6 +261,7 @@ body {
     .box-col {
         padding-left: 1px !important;
         padding-right: 1px !important;
+        margin-bottom: 30px;
     }
 
     .boxes {
@@ -285,6 +292,7 @@ body {
     .box-col {
         padding-left: 1px !important;
         padding-right: 1px !important;
+        margin-bottom: 30px;
     }
 
     .boxes {
@@ -366,6 +374,14 @@ textarea::placeholder {
     color: #c7c7c7 !important; 
 }
 
+.form-control {
+    border-width: 2px !important;
+}
+
+.message-btn {
+    font-weight: 500;
+}
+
 @media screen and (max-width: 986px) {
     .contact-icon {
         font-size: 2rem;
@@ -380,9 +396,7 @@ textarea::placeholder {
     }
 }
 
-.message-btn {
-    font-weight: 500;
-}
+
 
 
 /* animation */

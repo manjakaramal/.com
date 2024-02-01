@@ -19,4 +19,7 @@ function showPage(pageId) {
 
     // Add the 'active' class to the clicked menu item
     document.querySelector(`[onclick="showPage('${pageId}')"]`).classList.add('active');
+
+    // Scroll to the top of the page
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
