@@ -112,6 +112,10 @@ body {
     }
 }
 
+.pt-content {
+    padding-top: 75px;
+}
+
 .content{
     padding-top: 0.1rem;
 }
@@ -138,6 +142,10 @@ body {
 
 
 @media screen and (max-width: 986px) {
+    .pt-content {
+        padding-top: 35px;
+    }
+
         .content{
         padding-top: 0.1rem;
     }
@@ -163,6 +171,9 @@ body {
 }
 
 @media screen and (max-width: 300px) {
+    .pt-content {
+        padding-top: 30px;
+    }
     .content{
         padding-top: 0.1rem;
     }
