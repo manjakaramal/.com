@@ -266,7 +266,7 @@ body {
 .box-text {
     font-size: 20px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 @media screen and (max-width: 986px) {
@@ -292,7 +292,7 @@ body {
 
     .box-head {
         font-size: 17px;
-        padding-top: 2rem;
+        padding-top: 2.5rem;
     }
 
     .box-text {
@@ -439,6 +439,10 @@ textarea::placeholder {
 /* .page {
     animation: zoomIn 0.5s ease-in-out;
 } */
+
+.message-us-head{
+    margin-top: 27px;
+}
   
 .content-head,
 .content-icon-1,
