@@ -266,6 +266,7 @@ body {
 .box-text {
     font-size: 20px;
     text-align: center;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 986px) {
@@ -331,6 +332,8 @@ body {
     
 }
 
+
+
 .card {
     color: #fff;
     background-color: #000;
@@ -340,6 +343,7 @@ body {
 .card-icon {
     font-size: 50px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .card-col {
@@ -408,6 +412,16 @@ textarea::placeholder {
 }
 
 
+.email-text {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 986px) {
+    .email-text {
+        font-size: 1rem;
+    }
+}
+
 
 
 /* animation */
@@ -454,3 +468,7 @@ textarea,
 input { animation-delay: 1.5s; }
 textarea { animation-delay: 1.5s; }
 .message-us-button { animation-delay: 1.5s; }
+
+.text-justify{
+    text-align: justify !important;
+}
