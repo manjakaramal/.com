@@ -23,3 +23,27 @@ function showPage(pageId) {
     // Scroll to the top of the page
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+
+
+// emailjs
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_x3ciah6', 'template_yhfxdx9', this)
+        .then(function(response) {
+            console.log('SUCCESS!', response.status, response.text);
+            Swal.fire({
+                icon: 'success',
+                title: 'Message Sent',
+                text: 'Your message has been sent successfully!',
+            });
+        }, function(error) {
+            console.log('FAILED...', error);
+            Swal.fire({
+                icon: 'error',
+                title: 'Failed to Send Message',
+                text: 'Failed to send your message. Please try again.',
+            });
+        });
+});
